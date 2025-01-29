@@ -62,7 +62,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = False
 
-CORS_ALLOWED_ORIGINS = ['https://.vercel.app',]
+CORS_ALLOWED_ORIGINS = ['https://pricely-kappa.vercel.app/', 'localhost']
 
 ROOT_URLCONF = 'pricely.urls'
 
