@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-@3*2c)768umm@^ofgen3w+h4)+^pn4&yg3mjau)_34m_(h@x13
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pricely.onrender.com', 'localhost']
 
 
 # Application definition
@@ -60,7 +60,10 @@ MIDDLEWARE = [
 ]
 
 
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
+
+CORS_ALLOWED_ORIGINS = ['https://.vercel.app',]
+
 ROOT_URLCONF = 'pricely.urls'
 
 TEMPLATES = [
